@@ -159,7 +159,7 @@
             $hashTable.GetEnumerator() | % {
                 $variableName = $_.Key
                 $variableValue = _convertToStringRepresentation $_.value
-                "`$$variableName = $variableValue"
+                "`$$variableName = $variableValue`n"
             }
         }
     }
